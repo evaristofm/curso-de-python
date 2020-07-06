@@ -1,6 +1,5 @@
-from numbers import Number
+dia = int(input("Dia: "))
+mes = input("Mês: ")
+ano = int(input("Ano: "))
 
-num1 = float(input("Digite um número: "))
-num2 = float(input("Digite outro número: "))
-
-print("A soma entre", num1, "e", num2, "é:", num1+num2)
+print("Você nasceu no dia", dia, "de", mes, "de", ano, ". Correto?")
