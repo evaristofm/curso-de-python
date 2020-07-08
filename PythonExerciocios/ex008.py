@@ -1,4 +1,7 @@
-metros = float(input('Digite quantos metros: '))
-converter = metros * 100
-print('Conversor de Metros para Centímetros')
-print('Resultado: {:.2f}'.format(converter))
+medida = float(input('Digite quantos metros: '))
+print('Valor em kilometros {}km'.format(medida / 1000))
+print('Valor em hectometros {}hm'.format(medida / 100))
+print('Valor em decametros {}dam'.format(medida / 10))
+print('Valor em decimetros {:.0f}dm'.format(medida * 10))
+print('Valor em centímetros {:.0f}cm'.format(medida * 100))
+print('Valor em milímetros {:.0f}mm'.format(medida * 1000))
