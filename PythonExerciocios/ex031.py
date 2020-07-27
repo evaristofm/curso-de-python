@@ -3,5 +3,5 @@ if km <= 200:
     print('Preço cobrado por km R$0,50')
     print('Total da viagem R${:.2f}'.format(km * 0.50))
 else:
-    print('Preço cobrado por km R$0,40')
-    print('Total da viagem R${}'.format(km * 0.40))
+    print('Preço cobrado por km R$0,45')
+    print('Total da viagem R${}'.format(km * 0.45))

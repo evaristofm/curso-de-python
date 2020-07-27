@@ -1,6 +1,9 @@
-ano = input('Digite o ano: ')
-bissexto = int(ano[2:]) / 4
-if type(bissexto) == float:
-    print('Não é bissexto!!')
+from datetime import date
+ano = int(input('Que ano que analisar? Coloque 0 para anilisar o ano atual: '))
+if ano == 0:
+    ano = date.today().year
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print('O ano {} é BISSEXTO'.format(ano))
 else:
-    print('É bissexto!!')
+    print('O ano {} NÃO É BISSEXTO'.format(ano))
+
